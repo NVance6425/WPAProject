@@ -1,10 +1,10 @@
-# Project Title
+# WordPress Apprenticeship Project
 
-Simple overview of use/purpose.
+Simple Website for the Bitwise WordPress Apprenticeship Program
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+I was asked to build a website by my Lead that would showcase my pre-existing coding knowledge. I was asked to make it about something important to me, or that I felt passionate about. So I chose Disneyland
 
 ## Getting Started
 
