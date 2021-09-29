@@ -7,3 +7,19 @@
     max-height: 6vh;
     max-width: 10vw;
 }
+
+.jumbotronimg {
+    background-image: url(../img/Castle.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100vw;
+    max-height: 100vh;
+    height: 87vh;
+    margin: 2vh; 
+    text-shadow: black 1px 1px;
+}
+
+span {
+    font-family: 'Montez', cursive !important;
+}

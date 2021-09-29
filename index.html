@@ -24,11 +24,7 @@
     <title>The Happiest Place on Earth</title>
   </head>
   <body class="bg-black g-0 m-0 p-0">
-    <!-- <audio autoplay>
-      <source src="Media/DLopen.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio> -->
-
+    
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -52,13 +48,30 @@
         </div>
       </div>
     </nav>
-    <div class="container ">
+
+    <div class="container">
       <div class="row mw-100">
-        <div class="">
-          <img class="" src="img/Castle.jpg" alt="To all who come to this happy place, welcome">
+        <div class="position-relative jumbotronimg d-flex flex-column align-items-center justify-content-between">
+            <span class="display-1 text-white fw-bold">To all who come to this happy place,</span>
+            <span class="display-1 text-white fw-bold">Welcome...</span>
         </div>
       </div>
     </div>
+    <div class="container ">
+      <div class="row d-flex justify-content-center">
+         <div class="col-6 text-align-center d-flex flex-column align-items-center">
+            <audio controls>
+            <source src="Media/DLopen.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+            <h1 class="text-white display-1" style="font-family: 'Montez', cursive !important;">Disneyland</h1>
+            <p class="text-white">
+              These words were spoken by Walt Disney in the opening moments of the dedication of the original, and in my opinion the best, theme park in the world. Here I'll share some information about my favorite "Happiest Place on Earth"!
+            </p>  
+          </div>
+      </div>
+    </div>
+      
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
