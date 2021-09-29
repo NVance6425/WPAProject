@@ -1,0 +1,9 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navlogo {
+    padding-left: 1vw;
+    max-height: 6vh;
+    max-width: 10vw;
+}
