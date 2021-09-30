@@ -23,3 +23,9 @@
 span {
     font-family: 'Montez', cursive !important;
 }
+
+.smlogo {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+}
