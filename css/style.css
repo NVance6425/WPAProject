@@ -64,5 +64,7 @@ span {
   }
 
   .textbox {
-      background-color: midnightblue;
+      color: whitesmoke;
+      background: rgba(0, 15, 68, 0.7);
   }
+   
