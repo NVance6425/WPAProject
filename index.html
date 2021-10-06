@@ -23,42 +23,56 @@
     <link rel="stylesheet" href="css/style.css">
     <title>The Happiest Place on Earth</title>
   </head>
-  <body class="bg-black g-0 m-0 p-0">
+  <body class="bg-black g-0 m-0 p-0 bodybg">
     
+    <!-- NavBar -->
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark border-bottom" style="background: rgba(0, 15, 68, 0.7);">
       <div class="container-fluid">
-        <a class="navbar-brand" href="https://disneyland.disney.go.com/" target="_blank"><img class="navlogo" src="img/logo-disneyland_blk.png" alt="Disneyland Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">History</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="lands.html">Lands</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <button type="button" class="btn btn-secondary ms-2"><a href="https://disneyland.disney.go.com/admission/tickets/" target="_blank" class="text-decoration-none text-light">Buy Tickets</a></button>
-          </ul>
-        </div>
+      <a class="navbar-brand" href="https://disneyland.disney.go.com/" target="_blank"><img class="navlogo" src="img/logo-disneyland_blk.png" alt="Disneyland Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">History</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="lands.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Lands
+              </a>
+              <div class="dropdown-menu" style="background: rgba(0, 15, 68, 1);" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html">Main Street USA</a>
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html#adventure">Adventureland</a>
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html#frontier">Frontierland</a>
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html#fantasy">Fantasyland</a>
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html#tomorrow">Tomorrowland</a>
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html#neworleans">New Orleans Square</a>
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html#critter">Critter Country</a>
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html#toon">Mickey's Toontown</a>
+                  <a class="dropdown-item" style="color: whitesmoke;" href="lands.html#galaxy">Star Wars Galaxy's Edge</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <button type="button" class="btn btn-secondary ms-2"><a href="https://disneyland.disney.go.com/admission/tickets/" target="_blank" class="text-decoration-none text-light">Buy Tickets</a></button>
+        </ul>
       </div>
-    </nav>
+      </div>
+  </nav>
 
     <!-- Content -->
 
     <div class="container">
       <div class="row mw-100">
         <div class="position-relative jumbotronimg d-flex flex-column align-items-center justify-content-between">
-            <span class="display-1 text-white fw-bold">To all who come to this happy place,</span>
-            <span class="display-1 text-white fw-bold">Welcome...</span>
+            <section class="display-1 text-white fw-bold disfont">To all who come to this happy place,</section>
+            <section class="display-1 text-white fw-bold disfont">Welcome...</section>
         </div>
       </div>
     </div>
@@ -83,7 +97,7 @@
     <div class="container-fluid">
       <footer class="d-flex align-items-center border-top" style="background: rgba(0, 15, 68, 0.7);">
         <div class="col-md-6 d-flex justify-content-end">
-          <span class="text-muted m-3 fs-5 fw-bold">&copy; 2021 All Rights Reserved</span>
+          <span class="text-muted m-3 fs-5 fw-bold disfont">&copy; 2021 All Rights Reserved</span>
         </div>
     
         <ul class="nav col-md-6 list-unstyled">
