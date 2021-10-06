@@ -65,6 +65,7 @@ span {
 
   .textbox {
       color: whitesmoke;
-      background: rgba(0, 15, 68, 0.7);
+      background: rgba(0, 15, 68, 0.5);
+      text-shadow: black 1px 1px;
   }
    
